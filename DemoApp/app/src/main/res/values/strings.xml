@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DemoApp</string>
+    <string name="mohammad_iqbal_hossain">Mohammad Iqbal Hossain</string>
+    <string name="moon_islam">Moon Islam</string>
+    <string name="button">Button</string>
+    <string name="enter_your_name">Enter Your Name</string>
 </resources>

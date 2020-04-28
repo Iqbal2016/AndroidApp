@@ -1,19 +1,19 @@
-package com.iqbal.demoapp;
+package com.iqbal.textfield;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void clickFunction(View view ){
-        EditText editText = findViewById(R.id.nameTextView);
-        Log.i("Info", "Button Pressed !"+editText.getText().toString());
+    public void clickFunction(View view){
+        EditText username = findViewById(R.id.username);
+        EditText password = findViewById(R.id.password);
+        Log.i("Info", "Enter Username "+username.getText().toString());
+        Log.i("Info", "Enter Password "+password.getText().toString());
     }
 
     @Override

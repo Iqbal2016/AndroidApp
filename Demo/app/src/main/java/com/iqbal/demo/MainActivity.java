@@ -8,11 +8,19 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
+
+    public void clickFunction(View view){
+        EditText editText = findViewById(R.id.editText);
+
+        Log.i("Info", "Hello...."+editText);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
